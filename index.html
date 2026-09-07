@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Typing Practice</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Typing Practice</h1>
+
+      <div class="top-bar">
+        <div>
+          ⏱ Time:
+          <span id="timer">110</span>s
+        </div>
+
+        <div id="status">Ready</div>
+      </div>
+
+      <section class="text-box">
+        <p id="textToType"></p>
+      </section>
+
+      <textarea
+        id="typingInput"
+        placeholder="Start typing here..."
+        spellcheck="false"
+        autocomplete="off"
+      ></textarea>
+
+      <button id="restartBtn">Restart Test</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
